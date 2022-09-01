@@ -11,7 +11,7 @@ namespace KeyOverlay
         public string KeyLetter = "";
         public readonly Keyboard.Key KeyboardKey;
         public readonly Mouse.Button MouseButton;
-        public int Counter = 15;
+        public int Counter = 0;
         public readonly bool isKey = true;
 
         public Key(string key)
